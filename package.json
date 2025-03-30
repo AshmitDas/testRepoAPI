@@ -1,4 +1,13 @@
 {
+  "name": "test-repo-api",
+  "description": "TestRepoAPI to test repo api",
+  "version": "1.0.0",
+  "private": true,
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node dist\\index.js"
+  },
   "dependencies": {
     "@types/express": "^5.0.0",
     "@types/node": "^22.13.10",
